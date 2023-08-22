@@ -1,7 +1,7 @@
 const express = require ("express");
 const app = express();
 
-const port = 5544;
+const port = 5000;
 
 app.get("/data" , (req, res) => {
     res.send()
